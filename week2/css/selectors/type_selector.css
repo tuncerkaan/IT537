@@ -1,0 +1,11 @@
+h1 {
+    color: crimson;
+    font-size: 37px;
+}
+
+p {
+    color: greenyellow;
+    background-color: black;
+    font-size: 20px;
+    text-align: right;
+}

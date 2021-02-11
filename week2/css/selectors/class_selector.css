@@ -1,0 +1,17 @@
+.huge {
+    color: crimson;
+    font-size: 50px;
+    text-align: left;
+}
+
+.first {
+    text-align: center;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+p.second {
+    text-align: right;
+    color: yellowgreen;
+    font-size: 9px;
+}
