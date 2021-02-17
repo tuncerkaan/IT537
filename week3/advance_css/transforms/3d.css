@@ -1,0 +1,25 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#myDiv {
+	    -webkit-transform: rotateX(90deg);
+	    transform: rotateX(70deg);
+	}
+
+/*
+	#myDiv {
+	    -webkit-transform: rotateY(130deg);
+	    transform: rotateY(130deg);
+	}
+*/
+
+/*
+	#myDiv {
+	    -webkit-transform: rotateZ(90deg);
+	    transform: rotateZ(90deg);
+	}
+*/

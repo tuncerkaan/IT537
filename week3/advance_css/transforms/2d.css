@@ -1,0 +1,79 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+
+div#myDiv {
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg);     
+    transform: rotate(20deg); 
+}
+
+/*
+
+div#myDiv {
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg);     
+    transform: rotate(20deg); 
+}
+*/
+
+
+/*
+
+div#myDiv {
+    -ms-transform: scale(2,3); 
+    -webkit-transform: scale(2,3); 
+    transform: scale(2,3); 
+}
+*/
+
+/*
+
+div#myDiv {
+    -ms-transform: skewX(20deg); 
+    -webkit-transform: skewX(20deg); 
+    transform: skewX(20deg); 
+}
+*/
+
+/*
+
+div#myDiv {
+    -ms-transform: skewY(20deg); 
+    -webkit-transform: skewY(20deg); 
+    transform: skewY(20deg); 
+}
+*/
+
+/*
+
+div#myDiv {
+    -ms-transform: skew(20deg,10deg); 
+    -webkit-transform: skew(20deg,10deg); 
+    transform: skew(20deg,10deg); 
+}
+*/
+
+/*
+
+The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+
+div#myDiv {
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); 
+    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); 
+    transform: matrix(1, 0.5, 0, 1, 0, 0); 
+}
+*/
+
+
+
+
+
+
+
+

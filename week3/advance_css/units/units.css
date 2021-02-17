@@ -1,0 +1,23 @@
+/*
+h1 {font-size: 50px;}
+h2 {font-size: 30px;}
+p {
+  font-size: 30px;
+  line-height: 20px;
+}
+*/
+
+p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+div {
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 0.5em;
+}
+

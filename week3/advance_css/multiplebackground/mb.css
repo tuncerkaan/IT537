@@ -1,0 +1,6 @@
+#example1 {
+    background-image: url(grass.gif), url(birdie.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}

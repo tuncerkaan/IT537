@@ -1,0 +1,41 @@
+#grad1 {
+    height: 150px;
+    width: 200px;
+    background: red; 
+    background: linear-gradient(red, blue);
+}
+
+/*left to rigth*/
+
+/* 
+linear-gradient(to right, red , blue);
+*/
+
+/*diagonal*/
+
+/* 
+linear-gradient(to bottom right, red, blue);
+*/
+
+/*Multiple Color*/
+
+/* 
+linear-gradient(red, orange, blue, blue, green, indigo, violet);
+*/
+
+/*Repeationg linear*/
+
+/* 
+repeating-linear-gradient(red, blue 10%, blue 20%);
+*/
+
+/*Radial Gradient*/
+
+/* 
+#grad1 {
+    height: 150px;
+    width: 200px;
+    background: red; 
+    background: radial-gradient(red, blue, green);
+}
+*/
