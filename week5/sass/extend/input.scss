@@ -1,0 +1,9 @@
+.error:hover {
+    background-color: crimson;
+    font-size: larger;
+}
+
+.error-serious {
+    @extend .error;
+    border-width: 5px;
+}

@@ -1,0 +1,11 @@
+$txt-size: 12px;
+$txt-color: #333;
+$link-color: #999;
+
+#main{
+	font-size: $txt-size;
+	color: $txt-color;
+	a{
+		color: $link-color;
+	}
+}

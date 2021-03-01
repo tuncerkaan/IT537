@@ -1,0 +1,8 @@
+.error:hover, .error-serious:hover {
+  background-color: crimson;
+  font-size: larger; }
+
+.error-serious {
+  border-width: 5px; }
+
+/*# sourceMappingURL=output.css.map */
