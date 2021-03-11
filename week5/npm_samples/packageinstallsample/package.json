@@ -1,0 +1,21 @@
+{
+  "name": "packageinstallsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "getsample"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "it5372021": "0.0.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}
