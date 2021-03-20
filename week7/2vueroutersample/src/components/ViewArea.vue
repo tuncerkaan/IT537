@@ -2,7 +2,9 @@
   <div>
     <ul>
       <li v-for="gif in gifs" :key="gif.id">
-        <img :src="gif.images.fixed_height.url" alt="Trending gif">
+        <router-link :to="goProfile(gif.id)">
+          <img :src="gif.images.fixed_height.url" alt="Trending gif">
+        </router-link>
       </li>
     </ul>
   </div>
@@ -11,7 +13,12 @@
 <script>
 export default {
   name: 'ViewArea',
-  props:['gifs']
+  props:['gifs'],
+  methods: {
+    goProfile(id) {
+      return `/profile/${id}`;
+    }
+  }
 
 }
 </script>

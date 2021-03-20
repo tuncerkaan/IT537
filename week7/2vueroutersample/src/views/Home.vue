@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <!--<img alt="Vue logo" src="./assets/logo.png">-->
     <search v-on:SearchRequest="handleRequest"></search>
     <view-area :gifs=gifs></view-area>
   </div>
 </template>
 
+
 <script>
-import Navbar from './components/Navbar.vue'
-import Search from './components/Search.vue'
-import ViewArea from './components/ViewArea.vue'
+import Navbar from '../components/Navbar.vue'
+import Search from '../components/Search.vue'
+import ViewArea from '../components/ViewArea.vue'
 
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
     Navbar, Search, ViewArea
   },
@@ -43,14 +43,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

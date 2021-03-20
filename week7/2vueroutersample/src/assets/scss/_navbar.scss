@@ -1,0 +1,12 @@
+#nav {
+    padding: 30px;
+  
+    a {
+      font-weight: bold;
+      color: royalblue;
+  
+      &.router-link-exact-active {
+        color: crimson;
+      }
+    }
+  }
