@@ -12,6 +12,8 @@ import Navbar from '../components/Navbar.vue'
 import Search from '../components/Search.vue'
 import ViewArea from '../components/ViewArea.vue'
 
+import _ from 'lodash'
+
 export default {
   name: 'Home',
   components: {
