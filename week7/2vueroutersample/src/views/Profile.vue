@@ -38,6 +38,9 @@ export default {
     .then((data) => {
       this.gif = data;
     })
+
+    console.log('Variables is here ...' + this.$root._self.$options.globals.variables.sample);
+
   }
 }
 </script>
